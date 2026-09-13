@@ -28,7 +28,7 @@ Created frontend applications including:
 - Real-time WhatsApp webapp WebSocket implementation with React/NextJS frontend
 
 
-For a complete list of my technical projects with detailed descriptions and technologies used, please visit my [Personal Projects Aggregator repository](https://github.com/Tyrael122/personal-projects-aggregator).
+For a complete list of my technical projects with detailed descriptions and technologies used, please visit my [Personal Projects Aggregator repository](https://github.com/borgeskauan/personal-projects-aggregator).
 
 ## Professional Profile
 Connect with me on [LinkedIn](https://www.linkedin.com/in/kauanborges/)  
