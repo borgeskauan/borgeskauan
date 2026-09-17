@@ -1,34 +1,22 @@
-# Kauan - Software Engineer
+# Kauan Borges — Software Engineer
 
-I specialize in building distributed systems and scalable applications with expertise in backend development, cloud technologies, and message-driven architectures.
+I'm a software engineer at Bradesco, focused on backend development, with experience across web applications and distributed systems. I care about what software enables for its users, the constraints it needs to work within, and the evidence behind engineering decisions.
 
-## Technical Focus Areas
-- Distributed Systems & Microservices
-- Message Brokers (Kafka, RabbitMQ)
-- Cloud Platforms (AWS, Azure)
-- Containerization & Orchestration
-- Full-Stack Development
+My main stack is Java and Spring Boot. My projects also include TypeScript, Angular, and Python.
 
-## Project Showcase
+## Selected work
 
-### Messaging Systems
-Developed several messaging platforms exploring different architectures:
-- Kafka-based CLI chat application
-- WhatsApp-inspired systems using both Redis and RabbitMQ
+### [Instant Payment System](https://github.com/borgeskauan/instant-payment-system)
 
-### Cloud & Serverless
-Built multiple cloud-native applications:
-- Cross-platform serverless functions (AWS Lambda, Azure Functions)
-- Financial transaction processing system
-- Scalable URL shortener with Redis caching
+A Pix-inspired inter-institution payment core exploring how to move money reliably under concurrent requests, duplicate messages, and failures. Built with Java, Spring Boot, Kafka, and PostgreSQL.
 
-### Web Applications
-Created frontend applications including:
-- Movie discovery platform (Angular + TMDB API)
-- Real-time WhatsApp webapp WebSocket implementation with React/NextJS frontend
+Two local benchmark runs sustained over **2,000 payments/s**, with **p99 completion latency below one second** and **no missing or contradictory results observed**. Completion was measured through confirmations received by the paying institution, rather than HTTP acceptance alone.
 
+The [design](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/design.md), [engineering evolution](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/engineering-evolution.md), and [benchmark methodology](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/performance.md) explain the decisions, tradeoffs, and scope of those results.
 
-For a complete list of my technical projects with detailed descriptions and technologies used, please visit my [Personal Projects Aggregator repository](https://github.com/borgeskauan/personal-projects-aggregator).
+### Other recent work
 
-## Professional Profile
-Connect with me on [LinkedIn](https://www.linkedin.com/in/kauanborges/)  
+- **[Valora](https://github.com/borgeskauan/valora)** — A WhatsApp-based expense tracker for recording income and expenses, managing recurring transactions, and querying financial records in natural language.
+- **[SupportAI](https://github.com/borgeskauan/SupportAI)** — A local prototype that turns resolved support cases into FAQ drafts, with source cases alongside each draft for human review, editing, approval, or rejection.
+
+[More projects](https://github.com/borgeskauan/personal-projects-aggregator) · [LinkedIn](https://www.linkedin.com/in/kauanborges/)
