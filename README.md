@@ -1,22 +1,22 @@
 # Kauan Borges — Software Engineer
 
-I'm a software engineer at Bradesco. I approach software by understanding the problem, who it affects, and what a useful solution needs to achieve. My focus is backend development, with experience building web applications as well.
+I'm a software engineer at Bradesco. I start by understanding the problem and deciding what's worth building. My focus is backend development, and I also build web applications.
 
-I care about making everyday tasks easier, keeping important services dependable, and choosing solutions that fit the needs of the business and its users.
+The projects below reflect that approach: reliable payments, easier expense tracking, and ways to reuse knowledge from customer support.
 
 ## Selected work
 
 ### [Instant Payment System](https://github.com/borgeskauan/instant-payment-system)
 
-Sending money should be quick, and both institutions should know whether the payment went through. This Pix-inspired project explores that responsibility: completing transfers between institutions while keeping payment outcomes correct, including when requests are repeated or part of the system fails.
+Sending money should be quick, and both institutions should know whether the payment went through. I built this Pix-inspired simulation to explore how to complete transfers without moving money twice or losing track of the result, even when a request is repeated or part of the system fails.
 
-In two local tests, it handled over **2,000 payments per second**, with **99% completed in under one second** and no missing or contradictory results observed. These results demonstrate the project within its tested scope; it is a simulation, not a live payment service.
+In two local tests of the simulation, it handled over **2,000 payments per second**, with **99% completed in under one second** and no missing or contradictory results observed.
 
-The [project documentation](https://github.com/borgeskauan/instant-payment-system#learn-more) explains the choices, tradeoffs, and how the results were measured.
+The [project documentation](https://github.com/borgeskauan/instant-payment-system#learn-more) explains the choices, tradeoffs, and how I measured the results.
 
 ### Other recent work
 
-- **[Valora](https://github.com/borgeskauan/valora)** — Makes tracking personal finances more convenient by letting users record expenses and income, manage recurring transactions, and ask about their spending through WhatsApp messages.
-- **[SupportAI](https://github.com/borgeskauan/SupportAI)** — A local prototype for helping support teams reuse what they have already solved: it groups related cases and prepares FAQ drafts with the original cases available for review before approval.
+- **[Valora](https://github.com/borgeskauan/valora)** — An expense tracker that lets users record income and expenses, manage recurring transactions, and ask about their spending through everyday WhatsApp messages.
+- **[SupportAI](https://github.com/borgeskauan/SupportAI)** — A local prototype that helps support teams turn cases they've already solved into FAQ drafts. Reviewers can read the source cases alongside each draft, edit it, and approve or reject it.
 
 [More projects](https://github.com/borgeskauan/personal-projects-aggregator) · [LinkedIn](https://www.linkedin.com/in/kauanborges/)
