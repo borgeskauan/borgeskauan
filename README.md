@@ -1,22 +1,22 @@
 # Kauan Borges — Software Engineer
 
-I'm a software engineer at Bradesco, focused on backend development, with experience across web applications and distributed systems. I care about what software enables for its users, the constraints it needs to work within, and the evidence behind engineering decisions.
+I'm a software engineer at Bradesco. I approach software by understanding the problem, who it affects, and what a useful solution needs to achieve. My focus is backend development, with experience building web applications as well.
 
-My main stack is Java and Spring Boot. My projects also include TypeScript, Angular, and Python.
+I care about making everyday tasks easier, keeping important services dependable, and choosing solutions that fit the needs of the business and its users.
 
 ## Selected work
 
 ### [Instant Payment System](https://github.com/borgeskauan/instant-payment-system)
 
-A Pix-inspired inter-institution payment core exploring how to move money reliably under concurrent requests, duplicate messages, and failures. Built with Java, Spring Boot, Kafka, and PostgreSQL.
+Sending money should be quick, and both institutions should know whether the payment went through. This Pix-inspired project explores that responsibility: completing transfers between institutions while keeping payment outcomes correct, including when requests are repeated or part of the system fails.
 
-Two local benchmark runs sustained over **2,000 payments/s**, with **p99 completion latency below one second** and **no missing or contradictory results observed**. Completion was measured through confirmations received by the paying institution, rather than HTTP acceptance alone.
+In two local tests, it handled over **2,000 payments per second**, with **99% completed in under one second** and no missing or contradictory results observed. These results demonstrate the project within its tested scope; it is a simulation, not a live payment service.
 
-The [design](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/design.md), [engineering evolution](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/engineering-evolution.md), and [benchmark methodology](https://github.com/borgeskauan/instant-payment-system/blob/master/docs/performance.md) explain the decisions, tradeoffs, and scope of those results.
+The [project documentation](https://github.com/borgeskauan/instant-payment-system#learn-more) explains the choices, tradeoffs, and how the results were measured.
 
 ### Other recent work
 
-- **[Valora](https://github.com/borgeskauan/valora)** — A WhatsApp-based expense tracker for recording income and expenses, managing recurring transactions, and querying financial records in natural language.
-- **[SupportAI](https://github.com/borgeskauan/SupportAI)** — A local prototype that turns resolved support cases into FAQ drafts, with source cases alongside each draft for human review, editing, approval, or rejection.
+- **[Valora](https://github.com/borgeskauan/valora)** — Makes tracking personal finances more convenient by letting users record expenses and income, manage recurring transactions, and ask about their spending through WhatsApp messages.
+- **[SupportAI](https://github.com/borgeskauan/SupportAI)** — A local prototype for helping support teams reuse what they have already solved: it groups related cases and prepares FAQ drafts with the original cases available for review before approval.
 
 [More projects](https://github.com/borgeskauan/personal-projects-aggregator) · [LinkedIn](https://www.linkedin.com/in/kauanborges/)
