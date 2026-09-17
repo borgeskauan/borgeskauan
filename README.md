@@ -1,8 +1,6 @@
 # Kauan Borges — Software Engineer
 
-I'm a software engineer at Bradesco. I start by understanding the problem and deciding what's worth building. My focus is backend development, and I also build web applications.
-
-The projects below reflect that approach: reliable payments, easier expense tracking, and ways to reuse knowledge from customer support.
+I'm a software engineer at Bradesco, focused on backend development, with experience building web applications.
 
 ## Selected work
 
